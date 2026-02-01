@@ -11,7 +11,10 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Overview"
+      },
+      {
+        "tab": "Quick Start",
         "groups": [
           {
             "group": "Getting started",
@@ -48,16 +51,25 @@
         ]
       },
       {
+        "tab": "Core Tooling"
+      },
+      {
+        "tab": "Configuration"
+      },
+      {
+        "tab": "Advanced Guides"
+      },
+      {
         "tab": "API reference",
-        "groups": [
+        "menu": [
           {
-            "group": "API documentation",
+            "item": "API documentation",
             "pages": [
               "api-reference/introduction"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "item": "Endpoint examples",
             "pages": [
               "api-reference/endpoint/get",
               "api-reference/endpoint/create",
@@ -67,31 +79,18 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark.svg",
+    "href": "https://riftdata.io/vercel.svg"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:team@riftdata.io"
       }
     ],
     "primary": {
@@ -114,9 +113,7 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/riftdata"
     }
   },
   "background": {
@@ -125,5 +122,34 @@
   },
   "appearance": {
     "default": "system"
+  },
+  "fonts": {
+    "family": "Poppins",
+    "weight": 300,
+    "format": "woff2",
+    "heading": {
+      "family": "Figtree",
+      "weight": 400
+    },
+    "body": {
+      "family": "Merriweather",
+      "weight": 300
+    }
+  },
+  "search": {
+    "prompt": "Ask a question..."
+  },
+  "api": {
+    "playground": {
+      "display": "interactive"
+    }
+  },
+  "seo": {
+    "indexing": "navigable"
+  },
+  "errors": {
+    "404": {
+      "title": "Page Not Found"
+    }
   }
 }
