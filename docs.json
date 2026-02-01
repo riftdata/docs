@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "willow",
-  "name": "Mint Starter Kit",
+  "name": "RiftDB CLI Documentation Reference",
   "colors": {
     "primary": "#027FFF",
     "light": "#569DD6",
@@ -151,5 +151,6 @@
     "404": {
       "title": "Page Not Found"
     }
-  }
+  },
+  "description": "Guides, reference, and tips on how to make the most out of the RiftDB CLI."
 }
